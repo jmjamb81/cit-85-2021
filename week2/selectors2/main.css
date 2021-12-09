@@ -1,0 +1,31 @@
+body {
+    font-size: 20px;
+ }
+
+li:first-child {
+    color: black;
+}
+
+li:nth-last-child(99) {
+    color: rgb(255, 255, 255);
+}
+
+li:nth-child(even) {
+    color: darksalmon;
+}
+
+li:nth-child(odd) {
+    color: rgb(37, 130, 0);
+}
+
+li:nth-child(10) {
+    color: rgb(230, 221, 205);
+}
+
+article:only-child {
+    color: red;
+}
+
+li:nth-child(10n+8) {
+    color: rgb(32, 54, 54);
+}
