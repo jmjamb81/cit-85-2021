@@ -1,0 +1,19 @@
+body {
+    font-size: 50px;
+    text-align: left;
+}
+a:link {
+    color: peru;
+}
+
+a:visited {
+    color: darkkhaki;
+}
+
+a:hover {
+    color: maroon;
+}
+
+a:active {
+    color: silver;
+}
