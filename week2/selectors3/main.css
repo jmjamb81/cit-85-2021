@@ -1,0 +1,22 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+p {
+    margin: 30px;
+    max-width: 1000px;
+    text-indent: 50px;
+}
+
+p::first-letter {
+    font-family: cursive;
+    font-size: 50px;
+    line-height: .5;
+}
+
+p::first-line {
+    color: black;
+    font-weight: 700;
+}
