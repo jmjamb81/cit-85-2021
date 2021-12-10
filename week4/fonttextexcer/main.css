@@ -1,0 +1,35 @@
+body { font-family: serif; 
+}
+
+body { font-family: sans-serif; 
+}
+
+#p1 { font-weight: bold; 
+}
+
+#p2 { font-style: italic; 
+}
+
+#p3 { font-variant: small-caps;
+}
+
+#p4 { text-transform: uppercase;
+}
+
+#p5 { letter-spacing : 6px;
+}
+
+h1 {
+    text-shadow: 2px 2px greenyellow;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#p6 { text-decoration-line: line-through;
+}
