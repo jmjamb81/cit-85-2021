@@ -1,0 +1,36 @@
+/* <div> tag defines a division or a section in an HTML document,<h1> element with the following default values */
+div, h1, p {
+    width: 50;
+    height: 200;
+    border: 5px solid rgb(222, 230, 115);
+}
+/* Select and style all elements with class="two" */
+.two {
+    color: orange;
+}
+/* will be applied to the HTML element with id="di" */
+#di {
+    color: springgreen;
+    font-size: 30px;
+}
+/* Selects all <p> elements */
+p {
+    color: rgb(179, 255, 0);
+}
+/* browsers will display the <h2> element with the following default values */
+h2 {
+    color: red;
+  }
+/* elements with class="center" will be center-aligned */
+.center {
+    color: rgba(255, 0, 0, 0.219);
+}
+/* <p> elements with class="center" will be center-aligned */
+p.center {
+    color: rgba(0, 255, 0, 0.548);
+  }
+
+/* Selects all elements */
+* {
+    color: blue;
+}
