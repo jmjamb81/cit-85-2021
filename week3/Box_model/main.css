@@ -1,0 +1,19 @@
+
+
+div.boxmodel{
+    display: inline;
+    width: 100px;
+    height: 160x;
+    padding: 18px;
+}
+
+span.boxmodel{
+    display: inline-block;
+    width: 100px;
+    height: 160x;
+    padding: 18px;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
