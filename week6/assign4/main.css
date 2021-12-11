@@ -1,0 +1,48 @@
+html, body, div {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0;
+    border: 3px solid red;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.square1, .square2, .square3, .square4, .square5 {
+    width: 100%;
+    min-height: 150px;
+}
+
+.square2, .square3, .square4, .square5 {
+    width: 50%;
+}
+
+.square3, .square4, .square5 {
+    width: 33.33%;
+}
+
+.square1 {
+    background-color: navy;
+    width: 60%;
+}
+
+.square2 {
+    background-color: mediumblue;
+    width: 40%;
+}
+
+.square3 {
+    background-color: skyblue;
+}
+
+.square4 {
+    background-color: lightgray;
+}
+
+.square5 {
+    background-color: whitesmoke;
+}
