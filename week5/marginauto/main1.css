@@ -1,0 +1,33 @@
+* {
+    border: 1px dashed blue;
+}
+
+body {
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+div {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
