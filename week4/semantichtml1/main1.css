@@ -1,0 +1,50 @@
+* {
+    margin: 20px 0;
+}
+
+header {
+    height: 5vh;
+    border: 1px solid red;
+    background-color: gray;
+    text-align: center;
+
+}
+
+div {
+    height: 5vh;
+    border: 1px solid red;
+    background-color: gray;
+
+}
+
+nav {
+    height: 20vh;
+    border: 1px solid red;
+    float: left;
+    width: 24%;
+    background-color: gray;
+}
+
+article {
+    height: 40vh;
+    border: 1px solid red;
+    float: inline-end;
+    width: 24%;
+    background-color: gray;
+
+}
+
+main {
+    height: 50vh;
+    border: 1px solid red;
+    float: right;
+    width: 75%;
+    background-color: gray;
+}
+
+footer {
+    height: 5vh;
+    border: 1px solid red;
+    clear: both;
+    background-color: gray;
+} 
