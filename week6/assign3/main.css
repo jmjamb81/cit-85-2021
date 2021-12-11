@@ -1,0 +1,54 @@
+html, body, main, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+main {
+    height: 100vh;
+    border: 3px dashed red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+div {
+    height: 200px;
+    border: 1px solid black;
+    flex-grow: 1;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font: 900 2rem serif;
+}
+
+#red {
+    flex-basis: 100%;
+    background-color: salmon;
+}
+
+#blue {
+    flex-basis: 60%;
+    background-color: lightblue;
+}
+
+#green {
+    flex-basis: 40%;
+    background-color: lightgreen;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#purple {
+    background-color: violet;
+}
