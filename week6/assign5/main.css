@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.square, .square1, .square2, .square3 {
+    width: 100%;
+    min-height: 150px;
+}
+
+.square {
+    color: white;
+    background-color: darkblue;
+    width: 25%;
+}
+
+.square1 {
+    border: 2px solid red;
+    box-sizing: border-box;
+    width: 75%;
+}
+
+.square2 {
+    color: white;
+    background-color: mediumblue;
+}
+
+.square3 {
+    color: white;
+    background-color: skyblue;
+}
