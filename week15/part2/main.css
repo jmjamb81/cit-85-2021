@@ -1,0 +1,39 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+body {
+    height: 100vh;
+}
+
+div {
+    position: fixed;
+    top: 60vh;
+    left: 60vw;
+    width: 5vw;
+    height: 5vw;
+    background-color: crimson;
+    border: 20px solid black;
+    border-radius: 100%;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 200ms;
+    animation-delay: 0ms;
+}
+
+@keyframes bounce {
+    80%{top:90vh;}
+    70%{top:0;left:0;}
+    60%{left: 90vw;}
+    50%{top: 90vh;}
+    40%{left: 0;}
+    30%{top: 0;}
+    20%{left: 90vw;}
+
+}
