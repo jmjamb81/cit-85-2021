@@ -1,0 +1,42 @@
+html, body, header, div, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+header {
+    height: 200px;
+    border: 10px solid blue;
+}
+
+footer {
+    height: 200px;
+    border: 10px solid red;
+    background-color: darkmagenta;
+    clear: left;
+}
+
+header {
+    background-color: yellow;
+}
+
+
+div {
+    height: 250px;
+    border: 5px solid black;
+}
+
+#left {
+    width: 20%;
+    float: left;
+    background-color: skyblue;
+}
+
+#right {
+    width: 80%;
+    float: left;
+    background-color: green;
+}
