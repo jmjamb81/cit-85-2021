@@ -1,0 +1,42 @@
+body, html, header, article, aside, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, article, aside, footer {
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    background: salmon;
+}
+
+article {
+    text-align: left;
+    background: skyblue;
+}
+
+aside:nth-child(3) {
+    background: yellow;
+}
+
+aside:nth-child(4) {
+    background: lightpink;
+}
+
+footer {
+    background: aquamarine;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+}
+
+header, article, aside, footer {
+    width: 100%;
+}
